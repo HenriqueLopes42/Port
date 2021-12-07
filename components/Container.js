@@ -4,9 +4,9 @@ import {
     Button,
     Flex,
     Box
-} from '@chakra-ui/react'
+} from "@chakra-ui/react"
 
-import NextLink from 'next/link'
+import NextLink from "next/link"
 import styled from "@emotion/styled";
 
 import DarkModeSwitch from "./DarkModeSwitch";

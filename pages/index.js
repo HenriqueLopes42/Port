@@ -1,13 +1,13 @@
-import Head from 'next/head'
+import Head from "next/head"
 import {  
           Text,
           useColorMode,
           Heading,
           Flex,
           Stack
-        } from '@chakra-ui/react'
+        } from "@chakra-ui/react"
 
-import Container from '../components/Container'
+import Container from "../components/Container"
 
 export default function Home() {
 
@@ -42,7 +42,9 @@ export default function Home() {
           >
 
             <Heading>
-              Hi, I'm Henrique Lopes
+              <Text>
+                {"Hi, I'm Henrique Lopes"}
+              </Text>
             </Heading>
             <Text color={colorSecondary[ColorMode]}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ante nunc, finibus sit amet purus quis, congue vulputate ipsum. Phasellus lobortis bibendum orci, quis imperdiet lectus imperdiet porttitor.</Text>
           </Flex>
