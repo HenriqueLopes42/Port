@@ -22,7 +22,7 @@ export default function BlogLayout({children, frontMatter}){
     }
 
     const router = useRouter()
-    const slug = router.asPath.replace('/blog','')
+    const slug = router.asPath.replace('/blog/', '')
 
     return (
         <Container>
