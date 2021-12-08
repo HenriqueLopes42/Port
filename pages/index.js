@@ -43,7 +43,7 @@ export default function Home() {
 
             <Heading>
               <Text>
-                {"Hi, I'm Henrique Lopes"}
+                {"Hi, I'm Henrique Lopes Doc"}
               </Text>
             </Heading>
             <Text color={colorSecondary[ColorMode]}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ante nunc, finibus sit amet purus quis, congue vulputate ipsum. Phasellus lobortis bibendum orci, quis imperdiet lectus imperdiet porttitor.</Text>
@@ -52,3 +52,4 @@ export default function Home() {
     </Container>
   )
 }
+ 
